@@ -3,7 +3,7 @@ import { join } from "path";
 import Serverless from "serverless";
 import { ServerlessPluginCommand } from "../types/serverless-plugin-command";
 
-const NODE_MODULES_PATH = join(__dirname, "..", "./node_modules/.bin");
+const NODE_MODULES_PATH = join(process.cwd(), "./node_modules/.bin");
 
 interface SeverlessOfflineSesLocalOptions {
   stages?: string[];
