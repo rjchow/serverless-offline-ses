@@ -60,7 +60,6 @@ typings/
 .env
 
 # npm build output
-/dist
 
 .sonarlint/
 .idea/
